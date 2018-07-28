@@ -42,6 +42,7 @@ export default {
     position: absolute;
     top: 0px;
     background-color: white;
+    z-index: 1;
 }
 .rightSide-enter, .rightSide-leave-to{
     right: -100%;
