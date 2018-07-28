@@ -4,6 +4,7 @@
       <temperature></temperature>
       <leftSideBox></leftSideBox>
       <rightSideBox></rightSideBox>
+      <chart></chart>
     </div>
 </template>
 
@@ -12,6 +13,7 @@ import apphead from './../apphead/apphead.vue'
 import temperature from './../temperature/temperature.vue'
 import leftSideBox from './../leftSideBox/leftSideBox.vue'
 import rightSideBox from  './../rightSideBox/rightSideBox.vue'
+import chart from './../chart/chart.vue'
 export default{
   data: function () {
     return {
@@ -21,7 +23,8 @@ export default{
     'apphead': apphead,
     'temperature': temperature,
     'leftSideBox': leftSideBox,
-    'rightSideBox': rightSideBox
+    'rightSideBox': rightSideBox,
+    'chart': chart
   }
 } 
 </script>
